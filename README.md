@@ -1,5 +1,7 @@
 Code Explanation (English)
-This code is designed to generates discount curves for given OIS (Overnight Index Swap) and CDS (Credit Default Swap) data. It focuses on two main components: calculating risk-free interest rates from OIS data and calculating liquidity premiums from CDS data.
+This code is designed to generates discount curves for given OIS (Overnight Index Swap) and CDS (Credit Default Swap) data. It focuses on two main components: calculating risk-free interest rates from OIS data and calculating liquidity premiums from CDS data. 
+
+Main tool used: scipy.optimize.minimize
 
 Data Reading and Filtering:
 First, the OIS and CDS data are read from CSV files. OIS data is filtered by specific currencies (EUR, USD, TRY, GBP), while CDS data is filtered by specific restructuring types.
